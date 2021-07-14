@@ -1,0 +1,111 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');   
+          
+/* common styles */
+body{
+                        font-family: 'Poppins', sans-serif;                                 
+               
+}
+
+/* header top banner styles */
+
+
+.top-banner{
+             display: grid;
+             grid-template-columns: repeat(2,1fr);   
+             background:#2D25A0 ;      
+           
+    
+         
+}
+.banner-title{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: 156px;
+                margin-right: 156px;  
+                padding-bottom: 86px; 
+                
+}
+.banner-title h1{
+                        font-size: 64px;
+                        line-height: 80px;
+                        color: #FFFFFF;   
+                        font-weight: 700;  
+}
+  .top-banner a, .highlights-details a{ 
+                 text-decoration: none;      
+                 color:white ;
+                 font-size: 16px;
+                 font-weight: 500; 
+                 background:#E02C6D;
+                 padding: 10px 24px;
+} 
+
+}
+.top-banner a :hover{
+
+}
+.top-banner img{
+      
+                        width: 70%;         
+}
+
+/* main */
+
+/* players style */
+.main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+}
+
+.players{
+             display: grid;
+             grid-template-columns: repeat(3,1fr);
+             grid-row-gap: 27px;
+             grid-column-gap: 30px;
+             margin-top: 70px;        
+                      
+}
+ .player{
+           width: 330px;
+           height: 474px;
+           background: white;
+           box-shadow: 0px 0px 40px rgb(0 0 0 / 15%); 
+           padding: 15px; 
+}
+.player-image{
+     overflow: hidden;
+     height: 256px;
+     
+}
+.player-image img {
+                     width: 100%;   
+}
+
+
+/* highlights style */
+
+.highlights{
+          display: grid;      
+          grid-template-columns: repeat(2,1fr); 
+          align-items: center;  
+          margin-top: 165px;  
+          width: 1140px;
+          /* padding-bottom: 60px; */
+}
+.highlights-details{
+                    margin-left: 180px;   
+                    
+}
+.highlights-banner img{
+                        width: 100%;
+                        
+
+}
+
+
+
+
