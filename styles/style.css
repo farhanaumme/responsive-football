@@ -57,17 +57,17 @@ body{
 /* main */
 
 /* players style */
-.main{
+ main{ 
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column; 
 
-}
+} 
 
 .players{
              display: grid;
-             grid-template-columns: repeat(3,1fr);
+             grid-template-columns: repeat(3, 1fr);
              grid-row-gap: 27px;
              grid-column-gap: 30px;
              margin-top: 70px;        
@@ -129,5 +129,40 @@ footer{
           width: 483.87px;
            height: 110px;      
 }
+/* media queries */
+@media only screen and (max-width:688px) {
+           .top-banner{
+                grid-template-columns: repeat(1,1fr);                   
+           }   
+           .banner-title{
+                       margin-left: 0px;     
+                       margin-right: 0px;       
+           }    
+            .players{         
+                     grid-template-columns: repeat(1,1fr);              
+
+           } 
+           .highlights{
+                        grid-template-columns: repeat(1,1fr); 
+                        width: 600px;
+                                               
+           }
+           .highlights-details{
+                               margin-left: 120px;    
+           }
+           .highlights-banner{
+                            margin-top: 50px;       
+
+           }
+           footer{
+                    text-align: left;             
+           }
+           
+}
+  
+   
+                        
+
+
 
 
